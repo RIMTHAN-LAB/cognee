@@ -85,7 +85,7 @@ services:
     networks:
       - cognee-network
     ports:
-      - "3002:8000"
+      - "3002:8051"
 
   postgres:
     image: pgvector/pgvector:pg17
